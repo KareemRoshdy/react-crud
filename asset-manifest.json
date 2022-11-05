@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-crud/static/css/main.a359b240.css",
+    "main.js": "/react-crud/static/js/main.0d38f6f2.js",
+    "static/media/bootstrap-icons.woff?": "/react-crud/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/react-crud/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "index.html": "/react-crud/index.html",
+    "main.a359b240.css.map": "/react-crud/static/css/main.a359b240.css.map",
+    "main.0d38f6f2.js.map": "/react-crud/static/js/main.0d38f6f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a359b240.css",
+    "static/js/main.0d38f6f2.js"
+  ]
+}
