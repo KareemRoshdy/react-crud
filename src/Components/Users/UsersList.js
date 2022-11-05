@@ -7,6 +7,7 @@ import { deleteUser } from "../../redux/slices/UserSlice";
 const UsersList = () => {
   const dispatch = useDispatch();
   const users = useSelector((state) => state.users);
+  console.log(users);
 
   const handelRemove = (id) => {
     dispatch(deleteUser({ id }));
@@ -41,11 +42,7 @@ const UsersList = () => {
         <Button>Add User</Button>
       </Link>
       <div className="users-list">
-        {users.length ? (
-          renderCard()
-        ) : (
-          <p className="no-user">No User</p>
-        )}
+        {users.length ? renderCard() : <p className="no-user">No User</p>}
       </div>
     </div>
   );
