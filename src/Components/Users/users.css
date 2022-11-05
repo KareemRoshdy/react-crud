@@ -1,0 +1,47 @@
+.users-list {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.user-card {
+  flex: 1 2 450px;
+  max-width: 600px;
+  padding: 20px 10px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+}
+.user-name {
+  color: var(--primary-color);
+  line-height: 0.5;
+}
+.user-email {
+  font-size: 18px;
+  color: var(--gray-color);
+}
+.icons {
+  text-align: right;
+}
+
+.icons button {
+  background: none;
+  border: none;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.icons .delete {
+  color: var(--strong-red-color);
+}
+.icons .edit {
+  color: var(--info-color);
+}
+.no-user {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--strong-red-color);
+  font-weight: bold;
+  font-size: 17px;
+}
